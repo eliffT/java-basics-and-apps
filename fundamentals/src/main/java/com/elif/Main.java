@@ -1,9 +1,7 @@
 package com.elif;
 
 import com.elif.enumm.Days;
-
 import java.util.HashSet;
-
 import java.util.ArrayList;
 
 public class Main {
