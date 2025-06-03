@@ -4,6 +4,8 @@ import com.elif.enumm.Days;
 
 import java.util.HashSet;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -29,5 +31,7 @@ public class Main {
         for (String fruit: fruits){
             System.out.println(fruit);
         }
+
+
     }
 }
