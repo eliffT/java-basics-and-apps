@@ -1,7 +1,6 @@
 package com.elif;
 
 import com.elif.enumm.Days;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.ArrayList;
@@ -42,6 +41,5 @@ public class Main {
         for (Map.Entry<String, Integer> entry: students.entrySet()){
             System.out.println(entry.getKey() + " -> " + entry.getValue());
         }
-
     }
 }
