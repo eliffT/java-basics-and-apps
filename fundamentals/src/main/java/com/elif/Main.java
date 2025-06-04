@@ -6,6 +6,8 @@ import java.util.HashSet;
 import java.util.ArrayList;
 import java.util.Map;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -33,6 +35,7 @@ public class Main {
             System.out.println(fruit);
         }
 */
+        /*
         Map<String, Integer> students = new HashMap<>();
         students.put("Ahmet", 90);
         students.put("Ayşe", 85);
@@ -40,6 +43,24 @@ public class Main {
 
         for (Map.Entry<String, Integer> entry: students.entrySet()){
             System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+
+         */
+
+        Scanner scanner = new Scanner(System.in);
+
+        try{
+            System.out.println("Enter a first number: ");
+            int number1 = scanner.nextInt();
+
+            System.out.println("Enter a second number: ");
+            int number2 = scanner.nextInt();
+
+            int result = number1 / number2;
+            System.out.println("Result: " + result);
+        }catch (ArithmeticException e){
+            System.out.println(e.getMessage());
         }
     }
 }
