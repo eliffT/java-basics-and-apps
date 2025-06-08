@@ -14,6 +14,19 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+
+        int number = 294;
+
+       // Autoboxing : int -> Integer
+       Integer wrapperNumber = number;
+       // Unboxing : Integer -> int
+       int unboxedNumber = wrapperNumber;
+
+        System.out.println("int value: " + number);
+        System.out.println("After autoboxing (Integer):  "+ wrapperNumber);
+        System.out.println("After unboxing (int): " + unboxedNumber);
+
+  /*
         List<Integer> numbers = new ArrayList<>();
 
         numbers.add(10);
@@ -24,7 +37,7 @@ public class Main {
 
         numbers.forEach (System.out::println);
 
-
+*/
         /*
         Days today = Days.WEDNESDAY;
         System.out.println("Today is: " + today);
