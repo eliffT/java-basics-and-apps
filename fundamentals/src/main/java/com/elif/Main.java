@@ -8,8 +8,23 @@ import java.util.Map;
 
 import java.util.Scanner;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
+
+        List<Integer> numbers = new ArrayList<>();
+
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        numbers.add(50);
+
+        numbers.forEach (System.out::println);
+
+
         /*
         Days today = Days.WEDNESDAY;
         System.out.println("Today is: " + today);
@@ -48,7 +63,7 @@ public class Main {
 
          */
 
-        Scanner scanner = new Scanner(System.in);
+      /*  Scanner scanner = new Scanner(System.in);
 
         try{
             System.out.println("Enter a first number: ");
@@ -62,5 +77,7 @@ public class Main {
         }catch (ArithmeticException e){
             System.out.println(e.getMessage());
         }
+        */
+
     }
 }
