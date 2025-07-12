@@ -30,15 +30,23 @@ students.put("Ahmet", 90);
 
 ---
 
+
 ## ▶️ How to Run
 
+1. Open a terminal in the root folder of the project (where the `src/` directory is located).
+
+2. Compile the Java file using:
+
 ```bash
-javac Main.java
-java com.elif.Main
+javac src/main/java/com/elif/Main.java
 ```
 
-- Uncomment the section you want to test.
-- Run in terminal or your IDE.
+3. Run the compiled program with:
 
+```bash
+java -cp src/main/java com.elif.Main
+```
 
+* Make sure to uncomment the code section you want to execute in Main.java.
 
+* You can run these commands either in the terminal or use your IDE’s run feature.
